@@ -103,7 +103,7 @@ nav {
   border-right: 10px solid transparent;
   border-top: 10px solid transparent;
   border-bottom: 10px solid red;
-  bottom: 78px;
+  bottom: 80px;
   left: 20px;
 }
 
@@ -140,6 +140,11 @@ nav {
 .navbar .nav-icons .nav-icon {
   color: #141517;
   margin-left: 15px;
+  transition: color .3s;
+}
+
+.navbar .nav-icons .nav-icon:hover{
+  color:red ;
 }
 
 label,
